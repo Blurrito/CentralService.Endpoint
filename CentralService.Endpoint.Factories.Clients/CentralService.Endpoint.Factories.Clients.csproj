@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CentralService.Endpoint.Client\CentralService.Endpoint.Client.csproj" />
+    <ProjectReference Include="..\CentralService.Endpoint.Interfaces\CentralService.Endpoint.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
